@@ -12,6 +12,10 @@ app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`)
 })
 
+app.get('/', (req, res) => {
+    res.send("tug-be")
+})
+
 // init web3
 const web3 = new Web3(new Web3.providers.HttpProvider('https://rpc-testnet.onuschain.io'));
 const currentTime = new Date()
