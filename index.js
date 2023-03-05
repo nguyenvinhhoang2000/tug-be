@@ -6,9 +6,9 @@ const constants = require('./constant')
 
 const app = express()
 
-const PORT = 5000
+// const PORT = 5000
 
-app.listen(PORT, () => {
+app.listen(5001, () => {
     console.log(`Server running on port ${PORT}`)
 })
 
