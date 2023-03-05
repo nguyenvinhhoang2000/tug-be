@@ -56,7 +56,7 @@ const main = async () => {
                         nonce,
                         chainId: networkId,
                     },
-                    process.env.PRIVATE_KEY,
+                    '8102957e1c2858fe3661ae1d0b1eaecc2b3f85885613eb99d6dd175998806afc',
                     )
                     
                     const receipt = await web3.eth.sendSignedTransaction(signedTx.rawTransaction)
